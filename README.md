@@ -15,6 +15,7 @@ mkid terraform-s3-website
 cd terraform-s3-website
 wget https://github.com/msokolov93/tf-static-s3/archive/refs/heads/main.zip
 unzip main.zip
+rm main.zip
 ```
 
 Setup
