@@ -25,6 +25,9 @@ In main.tf file:
 - add private key
 - change bucket name
 
+In policy.json file:
+- change bucket name
+
 Run the Solution
 ```
 terraform init
