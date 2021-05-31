@@ -11,8 +11,6 @@ source ~/.bash_profile
 
 Installation
 ```
-mkdir terraform-s3-website
-cd terraform-s3-website
 wget https://github.com/msokolov93/tf-static-s3/archive/refs/heads/main.zip
 unzip main.zip
 rm main.zip
@@ -34,3 +32,6 @@ terraform init
 terraform plan
 terraform apply
 ```
+
+Good luck!
+Keep an eye for quarantine v2 policies for your IAM permissions.
