@@ -9,6 +9,9 @@ resource "aws_s3_bucket" "b" {
   acl    = "public-read"
   policy = file("policy.json")
 
+  website {
+    index_document = "index.html"
+  }
 }
 
 resource "local_file" "indexpage" {
